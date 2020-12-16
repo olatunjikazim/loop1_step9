@@ -1,0 +1,349 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.loop {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7cd75;
+    position: fixed;
+}
+
+.loop1 {
+    width: 50rem;
+    height: 28rem;
+    margin: auto;
+    padding: auto;
+    background-color: #f1f1f1;
+    margin-top: 5em;
+    display: flex;
+}
+
+.right-loop {
+    width: 18rem;
+    height: 28rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.left-loop {
+    width: 32rem;
+    height: 28rem;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.wallet {
+    width: 14rem;
+    height: 3rem;
+    margin-top: 1.5em;
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wallet1 {
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
+
+.visa {
+    width: 5rem;
+    height: 5rem;
+}
+
+.visacard {
+    width: 15rem;
+    height: 8rem;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin-left: 1em;
+}
+
+.visacard:hover {
+    cursor: pointer;
+    border: 2px solid #8793c6;
+}
+
+.mastercard {
+    width: 15rem;
+    height: 8rem;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    border-radius: 2px;
+    margin-left: 1em;
+}
+
+.mastercard:hover {
+    cursor: pointer;
+    border: 2px solid #8793c6;
+}
+
+.master {
+    width: 5rem;
+    height: 5rem;
+}
+
+.maestrocard {
+    width: 15rem;
+    height: 8rem;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    border-radius: 2px;
+    margin-left: 1em;
+}
+
+.maestrocard:hover {
+    cursor: pointer;
+    border: 2px solid #8793c6;
+}
+
+.maestro {
+    width: 5rem;
+    height: 5rem;
+}
+
+.write {
+    width: 10rem;
+    height: 3rem;
+    margin-left: 1em;
+    font-size: 1em;
+    margin-top: -1em;
+    font-family: sans-serif;
+}
+
+.header {
+    width: 30rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.current {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(83, 80, 80);
+    margin-left: 1em;
+    margin-right: 1em;
+    ;
+}
+
+.line {
+    /* width: 20rem; */
+    border-bottom: 1px solid #e6dede;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.price-tag {
+    width: 30rem;
+    height: 20rem;
+    margin-top: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+    /* background-color: saddlebrown; */
+}
+
+.apple1 {
+    width: 27rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apple-minus {
+    border-radius: 50%;
+    border: 1px solid #e6dede;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.write1 {
+    width: 17rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+}
+
+.elect {
+    color: #a09797;
+}
+
+.price1 {
+    font-size: 1.2em;
+    color: #8797c6;
+}
+
+.funds {
+    width: 27rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.funds-plus {
+    border-radius: 50%;
+    border: 1px solid #e6dede;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.payment {
+    color: #a09797
+}
+
+.price2 {
+    font-size: 1.2em;
+    color: #8dcf61;
+}
+
+.energy {
+    width: 27rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.energy-minus {
+    border-radius: 50%;
+    border: 1px solid #e6dede;
+}
+
+.other {
+    color: #a09797;
+}
+
+.write2 {
+    width: 17rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+    margin-right: 1em;
+}
+
+.other1 {
+    color: #8793c6;
+    font-size: 1.2em;
+}
+
+.the-cinema {
+    width: 27rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.write3 {
+    width: 18rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+    /* margin-right: 1em; */
+}
+
+.cinema-minus {
+    border-radius: 50%;
+    border: 1px solid #e6dede;
+}
+
+.enter {
+    color: #a09797
+}
+
+.enter1 {
+    color: #8793c6;
+    font-size: 1.2em;
+}
+
+.mcfood {
+    width: 27rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.write4 {
+    width: 18rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+}
+
+.food-minus {
+    border-radius: 50%;
+    border: 1px solid #e6dede;
+}
+
+.cafes {
+    color: #a09797;
+}
+
+.cafe {
+    color: #8793c6;
+    font-size: 1.2em;
+}
+
+.gas {
+    width: 27rem;
+    /* height: 4rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gas-minus {
+    border-radius: 50%;
+    border: 1px solid #e6dede;
+}
+
+.write5 {
+    width: 18rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+}
+
+.gas2 {
+    color: #a09797;
+}
+
+.gas3 {
+    color: #8793c6;
+    font-size: 1.2em;
+}
